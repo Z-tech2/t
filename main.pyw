@@ -33,3 +33,5 @@ async def pressKey(ctx, cmd):
 async def releaseKey(ctx, cmd):
   keyboard.release(cmd)
   ctx.send("released key %s" % cmd)
+
+bot.run('MTIwMTMwNjI4NDgzNDY5NzI1Ng.GKGDFO.zgMjbN_bBM-979F4bps14o5_RBEzr-3kKY-nV4')
