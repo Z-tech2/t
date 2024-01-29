@@ -34,6 +34,4 @@ async def releaseKey(ctx, cmd):
   keyboard.release(cmd)
   ctx.send("released key %s" % cmd)
 
-r = open('%tmp%/token.txt', "r")
-lines = f.readlines()
-bot.run(lines)
+bot.run(token)
